@@ -3,3 +3,12 @@
 body {
 	background-image: url("images/background.jpg");
 }
+
+.box {
+	background-color: white;
+	height: 500px;
+	width: 350px;
+	border-radius: 12px;
+	box-align: right;
+	
+}
