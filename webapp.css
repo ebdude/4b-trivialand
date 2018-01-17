@@ -1,3 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
-
+/* CSS DOCUMENT*/
+body {
+	background-image: url("images/background.jpg");
+}
