@@ -21,6 +21,8 @@ body {
 }
 
 #centerColumn {
+	align: center;
+	background-color: red;
 	height: 200px;
 	width: 100px;
 	position:absolute;
