@@ -7,26 +7,41 @@ body {
 }
 
 #title {
+	font-size:40px;
 	text-align: center;
+	
+}
+
+#wrapper {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
 }
 
 #leftColumn {
 	background-color: white;
 	height: 500px;
-	width: 300px;
+	width: 400px;
 	border-radius: 12px;
-	position:fixed;
 	color: black;
 	float: left;
 }
+#rightColumn {
+	float: right;
+	width: 400px;
+	height: 500px;
+	border-radius: 12px;
+	background-color: blue;
+}
 
-#centerColumn {
-	align: center;
+#footer {
+	
 	background-color: red;
 	height: 200px;
-	width: 100px;
-	position:absolute;
-	
+	clear: both;
+	width: 900px;
+	align-self:center;
+	border-radius: 12px;
 	
 	
 	
