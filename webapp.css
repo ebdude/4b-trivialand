@@ -27,11 +27,7 @@ body {
 	float: left;
 }
 #placeholder {
-	float: right;
-	width: 400px;
-	height: 500px;
-	border-radius: 12px;
-	background-color: blue;
+	
 }
 
 #footer {
@@ -47,8 +43,14 @@ body {
 	
 }
 
-#rightcolumn {
+#rightColumn {
 	background-color: blue;
 	float: right;
+
+	width: 400px;
+	height: 500px;
+	border-radius: 12px;
+	clear: both;
+	
 }
 
