@@ -26,7 +26,7 @@ body {
 	color: black;
 	float: left;
 }
-#rightColumn {
+#placeholder {
 	float: right;
 	width: 400px;
 	height: 500px;
