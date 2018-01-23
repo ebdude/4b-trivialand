@@ -21,20 +21,27 @@ body {
 #leftColumn {
 	background-color: white;
 	height: 500px;
-	width: 300px;
+	width: 400px;
 	border-radius: 12px;
-	position:fixed;
 	color: black;
 	float: left;
+}
+#rightColumn {
+	float: right;
+	width: 400px;
+	height: 500px;
+	border-radius: 12px;
+	background-color: blue;
 }
 
 #footer {
 	
 	background-color: red;
 	height: 200px;
-	width: 100px;
-	position:absolute;
-	
+	clear: both;
+	width: 900px;
+	align-self:center;
+	border-radius: 12px;
 	
 	
 	
