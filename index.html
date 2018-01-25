@@ -26,15 +26,26 @@
 </div>
 	
 	<div id="leftColumn">
-		<p>Score: 100</p>
 		<p>Score:
 	<input type="text" value="100">
 		</p>
 		<p>&nbsp;</p>
 	</div>
-	
-
-	
+	<div id="question">
+	<button onclick="myFunction()"> question</button>
+	<p id="demo"></p>
+<script>
+function myFunction( ) {
+	var txt;
+	if (confirm("Is california a state? ok for yes cancel for no")) {
+	 txt= "you are correct!";
+	} else {
+		txt= "you are incorrect:(";
+	}
+	document.getElementById("demo").innerHTML = txt;
+}
+</script>
+	</div>
 	
 	
 	<div id="footer">
