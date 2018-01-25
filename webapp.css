@@ -50,7 +50,17 @@ body {
 	width: 400px;
 	height: 500px;
 	border-radius: 12px;
-	clear: both;
+	
 	
 }
 
+#rightColumn div button {
+	text-align:center;
+}
+
+#demo {
+	color: white;
+	align-self: center;
+	
+	
+}
