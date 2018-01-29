@@ -54,15 +54,15 @@ body {
 	
 }
 
-#rightColumn div button {
-	text-align:center;
+#demo {
+	color: white;
+	text-align: center;
+	
 	
 	
 }
 
-#demo {
-	color: white;
-	align-self: center;
-	
+#rightColumn div {
+	text-align:center;
 	
 }
