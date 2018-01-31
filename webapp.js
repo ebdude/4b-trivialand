@@ -54,9 +54,9 @@ function randomQ() {
 			break;
 			
 		case 2:
-		document.getElementById("a1").removeEventListener("click", rightAnswer);
+		document.getElementById("a1").removeEventListener("click", wrongAnswer);
 	document.getElementById("a2").removeEventListener("click", wrongAnswer);
-	document.getElementById("a3").removeEventListener("click", wrongAnswer);
+	document.getElementById("a3").removeEventListener("click", rightAnswer);
 	document.getElementById("a4").removeEventListener("click", wrongAnswer);
 			// question 1
 			document.getElementById("demo").innerHTML = "Who was the first U.S. volleyball player to win three Olympic medals? ";
