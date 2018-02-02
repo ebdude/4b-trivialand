@@ -3,7 +3,8 @@
 var score = 0;
 
 window.onload = function() {
-	// load cookies here
+	
+//LOAD COOKIES HERE
 	
 	randomQ();
 };
@@ -45,7 +46,7 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 		case 1:
-			// question 1	
+			// question 2	
 			document.getElementById("demo").innerHTML = "Who was the First President of the United States?";
 			// answers
 			document.getElementById("a1").innerHTML = "George Washington";
@@ -59,7 +60,7 @@ function randomQ() {
 			break;
 			
 		case 2:
-			// question 1
+			// question 3
 			document.getElementById("demo").innerHTML = "Who was the first U.S. volleyball player to win three Olympic medals? ";
 			// answers
 			document.getElementById("a1").innerHTML = "Matt Anderson";
@@ -70,7 +71,20 @@ function randomQ() {
 			document.getElementById("a3").addEventListener("click", rightAnswer);
 			document.getElementById("a4").innerHTML = "Gabrielle Reece";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
-
+			break;
+			
+	case 3:
+			// question 3
+			document.getElementById("demo").innerHTML = "Who was the first U.S. volleyball player to win three Olympic medals?";
+			// answers
+			document.getElementById("a1").innerHTML = "Matt Anderson";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Logan Tom";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Karch Kirally";
+			document.getElementById("a3").addEventListener("click", rightAnswer);
+			document.getElementById("a4").innerHTML = "Gabrielle Reece";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 	
 	}
@@ -78,14 +92,18 @@ function randomQ() {
 
 function rightAnswer() {
 	randomQ();
-	// progress bar goes up
-	// score goes up
+	
+//PROGRESS BAR GOES UP
+
+//SCORE GOES UP
 	alert("Right answer!");
 }
 
 function wrongAnswer() {
 	randomQ();
-	// progress bar goes down
-	// scores goes down
+	
+//PROGRESS BAR GOES UP
+
+//SCORE GOES DOWN
 	alert("Wrong answer!");
 }
