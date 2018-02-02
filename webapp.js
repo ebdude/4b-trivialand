@@ -86,7 +86,10 @@ function randomQ() {
 			document.getElementById("a4").innerHTML = "Gabrielle Reece";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
-	
+
+
+	case 4:
+			// question 4	
 	}
 }
 
@@ -97,6 +100,8 @@ function rightAnswer() {
 
 //SCORE GOES UP
 	alert("Right answer!");
+	score += 50;
+	document.getElementById("score").value = score;
 }
 
 function wrongAnswer() {
@@ -106,4 +111,6 @@ function wrongAnswer() {
 
 //SCORE GOES DOWN
 	alert("Wrong answer!");
+	score -= 25;
+	document.getElementById("score").value = score;
 }
