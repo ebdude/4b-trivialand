@@ -30,7 +30,7 @@ function randomQ() {
 	document.getElementById("a3").removeEventListener("click", rightAnswer);
 	document.getElementById("a4").removeEventListener("click", rightAnswer);
 	
-	var n = Math.floor(Math.random() * 8);
+	var n = Math.floor(Math.random() * 10);
 	switch(n) {
 		case 0:
 			// question 1
@@ -113,6 +113,63 @@ function randomQ() {
 			document.getElementById("a3").addEventListener("click", rightAnswer);
 			document.getElementById("a4").innerHTML = "Ugh-hedron";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+		case 6:
+			// question 7
+			document.getElementById("demo").innerHTML = "One ton contains how many pounds?";
+			// answers
+			document.getElementById("a1").innerHTML = "2000";
+			document.getElementById("a1").addEventListener("click", rightAnswer);
+			document.getElementById("a2").innerHTML = "3";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "450";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a4").innerHTML = "875";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+		case 7:
+			// question 7
+			document.getElementById("demo").innerHTML = "According to Greek mythology, who was the god of wine?";
+			// answers
+			document.getElementById("a1").innerHTML = "Zeuss";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Poseidon";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Ares";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a4").innerHTML = "Dionysos";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;
+			
+				case 8:
+			// question 8
+			document.getElementById("demo").innerHTML = "Siddhartha Gautama is believed to be the founder of what religion?";
+			// answers
+			document.getElementById("a1").innerHTML = "Christianity";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Buddhism";
+			document.getElementById("a2").addEventListener("click", rightAnswer);
+			document.getElementById("a3").innerHTML = "Hinduism";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a4").innerHTML = "Atheism";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+			case 9:
+			// question 9
+			document.getElementById("demo").innerHTML = "How many NBA championships did Michael Jordan win with the Chicago Bulls?";
+			// answers
+			document.getElementById("a1").innerHTML = "ten";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "seven";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "thirty";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a4").innerHTML = "six";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;
 	}
 }
 
