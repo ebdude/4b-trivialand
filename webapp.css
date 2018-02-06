@@ -19,10 +19,13 @@ body {
 	
 }
 
+progress {
+	width: 100%;
+}
+
 #wrapper {
 	/*
-	the wrapper has a width of 960 px and this 
-	red bar acts as the place for the progress bar
+	the wrapper has a width of 960 px 
 	*/
 	padding: 5px;
 	width: 960px;
@@ -32,6 +35,7 @@ body {
 #leftColumn {
 	/*
 	Sets the color, height, width, border curves, and text color
+	It is the score 
 	*/
 	background-color: white;
 	height: 500px;
@@ -43,6 +47,9 @@ body {
 
 
 #footer {
+	/*
+	The footer is the red bar at the bottom that has the progress bar
+	*/
 	
 	background-color: red;
 	height: 200px;
@@ -56,6 +63,9 @@ body {
 }
 
 #rightColumn {
+	/*
+	The blue column on the right that contains the question
+	*/
 	background-color: blue;
 	float: right;
 
@@ -67,6 +77,9 @@ body {
 }
 
 #demo {
+	/*
+	The question that is center on the blue column is the demo
+	*/
 	color: white;
 	text-align: center;
 	
