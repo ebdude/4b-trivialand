@@ -1,24 +1,38 @@
 @charset "UTF-8";
 /* CSS DOCUMENT*/
 body {
+	/* makes the background a gradient, 
+	all the font is set
+	the color of all the text is white*/
 	background-image: url("images/background.jpg");	
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	color: white;
 }
 
 #title {
+	/*
+	the title size is set at 40 px
+	the title is aligned at the center
+	*/
 	font-size:40px;
 	text-align: center;
 	
 }
 
 #wrapper {
+	/*
+	the wrapper has a width of 960 px and this 
+	red bar acts as the place for the progress bar
+	*/
 	padding: 5px;
 	width: 960px;
 	margin: 20px auto;
 }
 
 #leftColumn {
+	/*
+	Sets the color, height, width, border curves, and text color
+	*/
 	background-color: white;
 	height: 500px;
 	width: 400px;
