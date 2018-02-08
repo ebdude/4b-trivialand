@@ -187,7 +187,7 @@ function randomQ() {
 			
 		case 11:
 			// question 12
-			document.getElementById("demo".innerHTML = "(5 +5/5)/3";
+			document.getElementById("demo").innerHTML = "(5 +5/5)/3";
 			// answers
 			document.getElementById("a1").innerHTML = "5";
 			document.getElementById("a1").addEventListener("click", wrongAnswer);
