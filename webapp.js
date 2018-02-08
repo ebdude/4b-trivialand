@@ -205,19 +205,16 @@ function randomQ() {
 
 function rightAnswer() {
 	randomQ();
-	
-//PROGRESS BAR GOES UP
 
-//SCORE GOES UP
+//SCORE AND PROGRESS BAR GOES UP
 	alert("Right answer!");
 	score += 50;
 	document.getElementById("score").value = score;
+	document.getElementById("progressBar").value = score;
 }
 
 function wrongAnswer() {
 	randomQ();
-	
-//PROGRESS BAR GOES UP
 
 //SCORE GOES DOWN
 	alert("Wrong answer!");
