@@ -82,7 +82,8 @@ progress {
 	The question that is center on the blue column is the demo
 	*/
 	color: white;
-	text-align: center;
+	font-size: 28px;
+	
 	
 	
 	
@@ -128,6 +129,7 @@ and (max-device-width: 568px) {
 	
 		#rightColumn {
 			width: auto;
+			
 		}
 		#leftColumn {
 			width: auto;
@@ -139,6 +141,10 @@ and (max-device-width: 568px) {
 			border-width: 8px;
 }
 }
+#leftColumn, #rightColumn {
+	text-align: center;
+}
 
-
-
+#a1,#a2,#a3,#a4 {
+	
+}
