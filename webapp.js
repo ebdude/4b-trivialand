@@ -133,13 +133,13 @@ function randomQ() {
 			// question 7
 			document.getElementById("demo").innerHTML = "According to Greek mythology, who was the god of wine?";
 			// answers
-			document.getElementById("a1").innerHTML = "Zeuss";
+			document.getElementById("a1").innerHTML = "Zeus";
 			document.getElementById("a1").addEventListener("click", wrongAnswer);
 			document.getElementById("a2").innerHTML = "Poseidon";
 			document.getElementById("a2").addEventListener("click", wrongAnswer);
 			document.getElementById("a3").innerHTML = "Ares";
 			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a4").innerHTML = "Dionysos";
+			document.getElementById("a4").innerHTML = "Dionysus";
 			document.getElementById("a4").addEventListener("click", rightAnswer);
 			break;
 			
