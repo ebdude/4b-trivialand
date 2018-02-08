@@ -130,21 +130,21 @@ function randomQ() {
 			break;
 			
 		case 7:
-			// question 8
+			// question 7
 			document.getElementById("demo").innerHTML = "According to Greek mythology, who was the god of wine?";
 			// answers
-			document.getElementById("a1").innerHTML = "Zeuss";
+			document.getElementById("a1").innerHTML = "Zeus";
 			document.getElementById("a1").addEventListener("click", wrongAnswer);
 			document.getElementById("a2").innerHTML = "Poseidon";
 			document.getElementById("a2").addEventListener("click", wrongAnswer);
 			document.getElementById("a3").innerHTML = "Ares";
 			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a4").innerHTML = "Dionysos";
+			document.getElementById("a4").innerHTML = "Dionysus";
 			document.getElementById("a4").addEventListener("click", rightAnswer);
 			break;
 			
-		case 8:
-			// question 9
+				case 8:
+			// question 8
 			document.getElementById("demo").innerHTML = "Siddhartha Gautama is believed to be the founder of what religion?";
 			// answers
 			document.getElementById("a1").innerHTML = "Christianity";
@@ -157,8 +157,8 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 			
-		case 9:
-			// question 10
+			case 9:
+			// question 9
 			document.getElementById("demo").innerHTML = "How many NBA championships did Michael Jordan win with the Chicago Bulls?";
 			// answers
 			document.getElementById("a1").innerHTML = "ten";
@@ -170,6 +170,8 @@ function randomQ() {
 			document.getElementById("a4").innerHTML = "six";
 			document.getElementById("a4").addEventListener("click", rightAnswer);
 			break;
+<<<<<<< HEAD
+=======
 			
 		case 10:
 			// question 11
@@ -200,6 +202,7 @@ function randomQ() {
 			break;
 		
 			
+>>>>>>> 749f206f2e59d956dce9791dec0644acf94543d0
 	}
 }
 
