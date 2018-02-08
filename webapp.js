@@ -130,7 +130,7 @@ function randomQ() {
 			break;
 			
 		case 7:
-			// question 8
+			// question 7
 			document.getElementById("demo").innerHTML = "According to Greek mythology, who was the god of wine?";
 			// answers
 			document.getElementById("a1").innerHTML = "Zeuss";
@@ -143,8 +143,8 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", rightAnswer);
 			break;
 			
-		case 8:
-			// question 9
+				case 8:
+			// question 8
 			document.getElementById("demo").innerHTML = "Siddhartha Gautama is believed to be the founder of what religion?";
 			// answers
 			document.getElementById("a1").innerHTML = "Christianity";
@@ -157,8 +157,8 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 			
-		case 9:
-			// question 10
+			case 9:
+			// question 9
 			document.getElementById("demo").innerHTML = "How many NBA championships did Michael Jordan win with the Chicago Bulls?";
 			// answers
 			document.getElementById("a1").innerHTML = "ten";
@@ -170,36 +170,6 @@ function randomQ() {
 			document.getElementById("a4").innerHTML = "six";
 			document.getElementById("a4").addEventListener("click", rightAnswer);
 			break;
-			
-		case 10:
-			// question 11
-			document.getElementById("demo").innerHTML = "(130-5)/25";
-			// answers		
-			document.getElementById("a1").innerHTML = "5";
-			document.getElementById("a1").addEventListener("click", rightAnswer);
-			document.getElementById("a2").innerHTML = "8";
-			document.getElementById("a2").addEventListener("click", wrongAnswer);
-			document.getElementById("a3").innerHTML = "9";
-			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a4").innerHTML = "10";
-			document.getElementById("a4").addEventListener("click", wrongAnswer);
-			break;
-			
-		case 11:
-			// question 12
-			document.getElementById("demo".innerHTML = "(5 +5/5)/3";
-			// answers
-			document.getElementById("a1").innerHTML = "5";
-			document.getElementById("a1").addEventListener("click", wrongAnswer);
-			document.getElementById("a2").innerHTML = "2";
-			document.getElementById("a2").addEventListener("click", rightAnswer);
-			document.getElementById("a3").innerHTML = "3";
-			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a3").innerHTML = "4";
-			document.getElementById("a4").addEventListener("click", wrongAnswer);
-			break;
-		
-			
 	}
 }
 
