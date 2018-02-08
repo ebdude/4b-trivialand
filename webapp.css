@@ -87,5 +87,58 @@ progress {
 	
 	
 }
+/*  Media Screen
+*/
+@media screen and (max-width: 980px){
+
+	#wrapper {
+			width:94%;
+	}
+	#rightColumn {
+			width: 65%;
+	}
+	#leftColumn {
+			width: 30%;
+	}
+	}
+	@media screen and (max-width: 700px){
+			#leftColumn, #rightColumn {
+				width: auto;
+				float: none;
+			}
+		}
+
+@media screen and (max-width: 480px) {
+
+	
+		h1 {
+			font-size: 24px;
+		}
+		#leftColumn {
+			float: none;
+		}
+}
+/* Phones */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+		body{
+			font-size: 40px;
+		}
+	
+		#rightColumn {
+			width: auto;
+		}
+		#leftColumn {
+			width: auto;
+			clear: both;
+		}
+		 #leftColumn,#rightColumn,#font{
+		
+			border-radius: 16px;
+			border-width: 8px;
+}
+}
+
 
 
