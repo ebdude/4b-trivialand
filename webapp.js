@@ -216,8 +216,9 @@ function rightAnswer() {
 function wrongAnswer() {
 	randomQ();
 
-//SCORE GOES DOWN
+//SCORE AND PROGRESS GOES DOWN
 	alert("Wrong answer!");
 	score -= 25;
 	document.getElementById("score").value = score;
+	document.getElementById("progressBar").value = score;
 }
