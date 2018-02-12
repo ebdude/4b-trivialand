@@ -236,3 +236,7 @@ function wrongAnswer() {
 	document.getElementById("score").value = score;
 	document.getElementById("progressBar").value = score;
 }
+
+//PERCENTAGE BAR
+	var percentage = (score/1000) * 100;
+	
