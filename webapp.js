@@ -30,7 +30,7 @@ function randomQ() {
 	document.getElementById("a3").removeEventListener("click", rightAnswer);
 	document.getElementById("a4").removeEventListener("click", rightAnswer);
 	
-	var n = Math.floor(Math.random() * 10);
+	var n = Math.floor(Math.random() * 12);
 	switch(n) {
 		case 0:
 			// question 1
@@ -196,6 +196,20 @@ function randomQ() {
 			document.getElementById("a3").innerHTML = "3";
 			document.getElementById("a3").addEventListener("click", wrongAnswer);
 			document.getElementById("a3").innerHTML = "4";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+			case 12:
+			// question 13
+			document.getElementById("demo").innerHTML = "Who was Alexander Hamilton?";
+			// answers
+			document.getElementById("a1").innerHTML = "a founding father";
+			document.getElementById("a1").addEventListener("click", rightAnswer);
+			document.getElementById("a2").innerHTML = "I don't know";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Who??";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "The 5th president";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 		
