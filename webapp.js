@@ -30,7 +30,7 @@ function randomQ() {
 	document.getElementById("a3").removeEventListener("click", rightAnswer);
 	document.getElementById("a4").removeEventListener("click", rightAnswer);
 	
-	var n = Math.floor(Math.random() * 10);
+	var n = Math.floor(Math.random() * 19);
 	switch(n) {
 		case 0:
 			// question 1
@@ -199,8 +199,105 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 		
+		case 12:
+			// question 13
+			document.getElementById("demo").innerHTML = "Which painter started the impressionist movement?";
+			// answers
+			document.getElementById("a1").innerHTML = " Vincent Van Gogh";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Michaelangelo";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Leonardo Da Vinci";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Claude Monet";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;		
 			
+		case 13:
+			// question 14
+			document.getElementById("demo").innerHTML = "What is the most popular breed of dog in the United States?";
+			// answers
+			document.getElementById("a1").innerHTML = "Labrador Retriever";
+			document.getElementById("a1").addEventListener("click", rightAnswer);
+			document.getElementById("a2").innerHTML = "Golden Retreiver";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "French Bulldog";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Great Dane";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+		case 14:
+			// question 15
+			document.getElementById("demo").innerHTML = "What animal is the symbol of the United States democratic party?";
+			// answers
+			document.getElementById("a1").innerHTML = "The Rabbit";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "The Donkey";
+			document.getElementById("a2").addEventListener("click",rightAnswer);
+			document.getElementById("a3").innerHTML = "The Elephant";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "The Horse";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+		case 15:
+			// question 16
+			document.getElementById("demo").innerHTML = "Which two elements on the periodic table are liquids at room temperature?";
+			// answers
+			document.getElementById("a1").innerHTML = "Mercury and Hassium";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Nickel and Seaborgium";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Moscovium and Holmium";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "Mercury and Bromine";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;
+			
+		case 16:
+			// question 17
+			document.getElementById("demo").innerHTML = "In what year was the Nintendo 64 officially released?";
+			// answers
+			document.getElementById("a1").innerHTML = "1996";
+			document.getElementById("a1").addEventListener("click", rightAnswer);
+			document.getElementById("a2").innerHTML = "1971";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "1969";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "1956";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
+			
+		case 17:
+			// question 18
+			document.getElementById("demo").innerHTML = "How many items are in a bakers dozen?";
+			// answers
+			document.getElementById("a1").innerHTML = "34";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "19";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "12";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "13";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;
+			
+		case 18:
+			// question 19
+			document.getElementById("demo").innerHTML = "Which author has the most published works?";
+			// answers
+			document.getElementById("a1").innerHTML = "William Shakespeare";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "George Orwell";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "J.K Rowling";
+			document.getElementById("a3").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "L. Ron Hubbard";
+			document.getElementById("a4").addEventListener("click", rightAnswer);
+			break;
 	}
+
 }
 
 function rightAnswer() {
