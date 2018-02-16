@@ -213,7 +213,19 @@ function randomQ() {
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 		
-			
+		case 13:
+			// question 14
+			document.getElementById("demo").innerHTML = "Who was the first president of the United States to live in the White House?";
+			// answers
+			document.getElementById("a1").innerHTML = "George Washington";
+			document.getElementById("a1").addEventListener("click", wrongAnswer);
+			document.getElementById("a2").innerHTML = "Thomas Jefferson";
+			document.getElementById("a2").addEventListener("click", wrongAnswer);
+			document.getElementById("a3").innerHTML = "John Adams";
+			document.getElementById("a3").addEventListener("click", rightAnswer);
+			document.getElementById("a3").innerHTML = "James Monroe";
+			document.getElementById("a4").addEventListener("click", wrongAnswer);
+			break;
 	}
 }
 

@@ -9,11 +9,6 @@ body {
 	color: white;
 }
 
-button {
-	display: block;
-	width: 100%;
-}
-
 #title {
 	/*
 	the title size is set at 40 px
