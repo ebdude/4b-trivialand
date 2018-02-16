@@ -30,7 +30,7 @@ function randomQ() {
 	document.getElementById("a3").removeEventListener("click", rightAnswer);
 	document.getElementById("a4").removeEventListener("click", rightAnswer);
 	
-	var n = Math.floor(Math.random() * 12);
+	var n = Math.floor(Math.random() * 13);
 	switch(n) {
 		case 0:
 			// question 1
