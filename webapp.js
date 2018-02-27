@@ -2,6 +2,8 @@
 
 var score = 0;
 
+
+
 window.onload = function() {
 	
 //LOAD COOKIES HERE
@@ -195,7 +197,7 @@ function randomQ() {
 			document.getElementById("a2").addEventListener("click", rightAnswer);
 			document.getElementById("a3").innerHTML = "3";
 			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a3").innerHTML = "4";
+			document.getElementById("a4").innerHTML = "4";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 			
@@ -209,7 +211,7 @@ function randomQ() {
 			document.getElementById("a2").addEventListener("click", wrongAnswer);
 			document.getElementById("a3").innerHTML = "Who??";
 			document.getElementById("a3").addEventListener("click", wrongAnswer);
-			document.getElementById("a3").innerHTML = "The 5th president";
+			document.getElementById("a4").innerHTML = "The 5th president";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 		
@@ -223,7 +225,7 @@ function randomQ() {
 			document.getElementById("a2").addEventListener("click", wrongAnswer);
 			document.getElementById("a3").innerHTML = "John Adams";
 			document.getElementById("a3").addEventListener("click", rightAnswer);
-			document.getElementById("a3").innerHTML = "James Monroe";
+			document.getElementById("a4").innerHTML = "James Monroe";
 			document.getElementById("a4").addEventListener("click", wrongAnswer);
 			break;
 	}
