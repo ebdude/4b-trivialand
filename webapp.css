@@ -19,9 +19,18 @@ body {
 	width: 24.6%;
 	font-size: 24px;
 	border-radius:10px;
-	background-color: white;
 }
 
+#diff1{
+	background-color:hotpink;
+	border-color:white;
+}
+
+#diff2{
+	background-color: lightgreen;
+	border-color:white;
+
+}
 
 #title {
 	/*
