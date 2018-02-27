@@ -2,8 +2,6 @@
 
 var score = 0;
 
-
-
 window.onload = function() {
 	
 //LOAD COOKIES HERE
