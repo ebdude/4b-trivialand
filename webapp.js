@@ -315,7 +315,7 @@ function wrongAnswer() {
 
 //SCORE AND PROGRESS GOES DOWN
 	alert("Wrong answer!");
-	score -= 25;
+	score -= 50;
 	document.getElementById("score").value = score;
 	document.getElementById("progressBar").value = score;
 }
